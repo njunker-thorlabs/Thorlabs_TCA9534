@@ -54,6 +54,8 @@ public:
 	//Read state of every pin 0-7 in a single uint8_t.
 	uint8_t readAll();
 
+	virtual ~Thorlabs_TCA9534(){}
+
 protected:
 
 	uint8_t _addr;
